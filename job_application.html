@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="css/job_application_style.css">
+</head>
+<body>
+    <div class="container">
+<div class="apply-box">
+<h1>Job Application</h1>
+<form action="apply_succesfully.html">
+<div class ="form-container">
+ <div classe="form-control">
+<label for="first-name">First Name :</label> 
+<input type="text" id ="first-name" name="first-name"
+placeholder="Enter First Name" required>
+</div>
+
+<div classe="form-control">
+    <label for="last-name">Last Name :</label> 
+    <input style="width: 270px;" type="text" id ="last-name" name="first-name"
+    placeholder="Enter Last Name" required>
+</div>
+<div classe="form-control">
+    <label for="email"> Email :</label> <br>
+    <input type="email" id ="email" name="first-name"
+    placeholder="Enter Email" required>
+</div>
+    <div class="form-control">
+    <label for=" jobe-role"></label> Job Role</label>
+     <select name=" jobe-role" id="jobe-role">
+    <option value="">Select Jobe Role</option> 
+        <option value="frontend">Frontend Developer</options>
+    <option value= "frontend">Backend Developer</option>
+    <option value="frontend">Full Stack Developer</options>
+    <option value="frontend">Ui Designer </option>
+     <option value="frontend">Angular Developer</option>
+    </select> 
+</div> 
+    <div class="textarea-control">
+   <label for="address">Address:</label> 
+   <textarea name="address" id="" cols="30" rows="6"
+   placeholder="Enter Full Address" required></textarea>  
+   </div>
+   
+    <div classe="form-control">
+   <label for="City">City :</label> 
+   <input type="text" id ="City" name="first-name"
+   placeholder="Enter City" required>
+   </div>
+   
+    <div classe="form-control">
+   <label for="pincode">Pincode :</label> 
+   <input style="width: 200px;" type="number" id ="pincode" name="first-name"
+   placeholder="Enter Pincode" required>
+   </div>
+
+    <div classe="form-control" style="margin-top: 20px;">
+   <label for="date">Date :</label> 
+   <input style="width: 210px;" type="date" id ="date" name="first-name"
+   value="2023-7-26" required>
+   </div>
+   
+    <div classe="form-control">
+   <label for="resume">Upload Your CV :</label> 
+   <input style="width: 260px;" type="file" id ="resume" name="first-name" required>
+   </div>
+
+   <div class="button-container">
+    <button type="submit">Apply Now</button>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
